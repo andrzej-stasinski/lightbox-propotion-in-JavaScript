@@ -1,17 +1,21 @@
 body{
-	background-color: #28231b;
+	background-color: #ccc;
 	margin:0px;
 	/*position: relative;*/
+}
+.wrapper {
+	padding: 10px;
 }
 h3 {
 	color:#fff;
 }
 #outer{
-	width:800px;
+	max-width:800px;
 	margin: 0 auto;
 	padding: 10px;
 	overflow: hidden;
-	outline: 1px solid red;
+	outline: 1px dotted red;
+	box-shadow: 0 0 1em rgb(19, 23, 250), 0 0 1em rgb(38, 83, 207);;
 }
 
 #fotos{
